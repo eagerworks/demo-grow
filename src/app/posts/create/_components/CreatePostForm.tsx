@@ -25,6 +25,8 @@ export default function CreatePostForm() {
     resolver: zodResolver(createPostDataSchema),
     defaultValues: {
       userId: 1,
+      title: "",
+      body: "",
     },
   });
 
